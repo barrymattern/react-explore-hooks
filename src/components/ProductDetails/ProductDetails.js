@@ -1,6 +1,8 @@
 import React from 'react'
+import ProductView from '../ProductView/ProductView.js'
 
 function ProductDetails({product, visible}) {
+    
     if (!visible) return null
 
     if (!product) return (
